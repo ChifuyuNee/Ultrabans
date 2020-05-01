@@ -15,19 +15,17 @@
  */
 package com.modcrafting.ultrabans.commands;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.modcrafting.ultrabans.Ultrabans;
+import com.modcrafting.ultrabans.util.BanType;
+import com.modcrafting.ultrabans.util.Formatting;
 import org.bukkit.ChatColor;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.modcrafting.ultrabans.Ultrabans;
-import com.modcrafting.ultrabans.util.BanInfo;
-import com.modcrafting.ultrabans.util.BanType;
-import com.modcrafting.ultrabans.util.Formatting;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Unban extends CommandHandler {
 	public Unban(Ultrabans instance) {

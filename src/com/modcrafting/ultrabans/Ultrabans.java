@@ -30,7 +30,7 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.modcrafting.ultrabans.commands.Ban;
-import com.modcrafting.ultrabans.commands.CheckID;
+//import com.modcrafting.ultrabans.commands.CheckID;
 import com.modcrafting.ultrabans.commands.CheckIP;
 import com.modcrafting.ultrabans.commands.Checkban;
 import com.modcrafting.ultrabans.commands.Clean;
@@ -63,9 +63,9 @@ import com.modcrafting.ultrabans.db.SQL;
 import com.modcrafting.ultrabans.db.SQLite;
 import com.modcrafting.ultrabans.listeners.UltraBanBlockListener;
 import com.modcrafting.ultrabans.listeners.UltraBanPlayerListener;
-import com.modcrafting.ultrabans.util.InfoAlias;
+//import com.modcrafting.ultrabans.util.InfoAlias;
 import com.modcrafting.ultrabans.util.InfoBan;
-import com.modcrafting.ultrabans.util.InfoIP;
+//import com.modcrafting.ultrabans.util.InfoIP;
 import com.modcrafting.ultrabans.util.Jailtools;
 
 public class Ultrabans extends JavaPlugin {
